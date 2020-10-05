@@ -3,7 +3,21 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+	int edad;
+	char nombre[30];
+	
+	cout<<"Escribe tu nombre: \n";
+	cin.getline(nombre, 30);
+	cout<<"Escribe tu edad: \n";
+	cin>>edad;
+	
+	cout<<endl<<endl;
+	
+	cout<<"_______________BYTES__________________"<<endl;
+	
+	cout<<"la cantidad de bytes (nombre) es de: "<<sizeof(nombre)<<endl;
+	cout<<"la cantidad de bytes (edad) es de: "<<sizeof(edad)<<endl;
+	cout<<"\n ";
 
     return 0;
 }
