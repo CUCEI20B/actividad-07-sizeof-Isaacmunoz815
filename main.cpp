@@ -11,7 +11,7 @@ int main() {
 	cout<<"Escribe tu edad: \n";
 	cin>>edad;
 	
-	cout<<endl<<endl;
+	cout<<"\n";
 	
 	cout<<"_______________BYTES__________________"<<endl;
 	
