@@ -13,7 +13,6 @@ int main() {
 	
 	cout<<"la cantidad de bytes (nombre) es de: "<<sizeof(nombre)<<endl;
 	cout<<"la cantidad de bytes (edad) es de: "<<sizeof(edad)<<endl;
-	cout<<"\n ";
 
     return 0;
 }
