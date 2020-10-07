@@ -3,16 +3,23 @@
 using namespace std;
 
 int main() {
-	int edad;
-	char nombre[30];
-	
-	cout<<"Escribe tu nombre: \n";
-	cin.getline(nombre, 30);
-	cout<<"Escribe tu edad: \n";
-	cin>>edad;
-	
-	cout<<"la cantidad de bytes (nombre) es de: "<<sizeof(nombre)<<endl;
-	cout<<"la cantidad de bytes (edad) es de: "<<sizeof(edad)<<endl;
+    string cadena;
+
+
+    getline(cin, cadena);
+    if(cadena == "char"){
+        cout << sizeof(char) << endl;
+    } else if(cadena == "int"){
+        cout << sizeof(int) << endl;
+    } else if(cadena == "short"){
+        cout << sizeof(short) << endl;
+    } else if(cadena == "float"){
+        cout << sizeof(float) << endl;
+    } else if(cadena == "double"){
+        cout << sizeof(double) << endl;
+    } else if(cadena == "long"){
+        cout << sizeof(long) << endl;
+    }
 
     return 0;
 }
